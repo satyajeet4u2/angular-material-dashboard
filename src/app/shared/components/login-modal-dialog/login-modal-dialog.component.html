@@ -1,0 +1,22 @@
+<div class="lginpage">
+  <P>Login</P>
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="emai">Email</span>
+  </div>
+  <br>
+  <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+  <br><br>
+
+
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="password">Password</span>
+  </div>
+  <br>
+  <input type="text" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1">
+  <br>
+
+  <button mat-button  style="float: left"   cdkFocusInitial>Login</button>
+<!--  [mat-dialog-close]="data"-->
+
+  <button mat-button  style="float: right" (click)="onNoClick()">Close</button>
+</div>

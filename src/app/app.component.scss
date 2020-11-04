@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  width: 100%;
+}
+@media screen and (min-width: 500px) {
+  .dark_blue {
+    width: 50%;
+  }
+  #container2 {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .dark_blue {
+    width: 25%;
+    order: 1; /* appear last, default value is 0*/
+  }
+  #container2 {
+    width: 50%;
+  }
+  .red {
+    width: 25%;
+    order: -1; /* appear first, default value is 0*/
+  }
+}
